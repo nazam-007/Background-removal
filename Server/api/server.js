@@ -31,4 +31,6 @@ connectDB().then(() => {
     console.error("DB connection failed:", err);
   });
   
-  export const handler = serverless(app);
+  // export const handler = serverless(app);
+
+  export default serverless(app);
